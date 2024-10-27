@@ -1,5 +1,6 @@
-.colVerde{
+.btnAzul{
     background-color: #155263;
+    color: #fff;
 }
 
 .colNaranjaD{
@@ -8,4 +9,8 @@
 
 .colNaranjaL{
     background-color: #FF9A3C;
+}
+
+.colAmarillo{
+    background-color: #FFC93C;
 }
