@@ -5,6 +5,10 @@ body{
     font-weight: 700;
   }
 
+.card{
+    border: none;
+}
+
 .card-img-top {
     height: 150px;
     object-fit: cover;
