@@ -1,8 +1,12 @@
-/* Transparency Styles */
+/* Transparencia Styles */
+
+body{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
 
 .card, .card-body {
-  border-radius: 10px ;
-  font-weight: bold;
+  border-radius: 10px;
   border: none;
 }
 

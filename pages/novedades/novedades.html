@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novedades</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="novedades.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="container mt-5">
+        <h2 class="text-center mb-4">> Novedades</h2>
+        
+        <div class="row">
+            <!-- Noticia 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card colAmarillo">
+                    <img src="../../images/c447d2055f59279af4da55e9876129c1_L.jpg" class="card-img-top" alt="Noticia 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Nuevo Parque en Construcción</h5>
+                        <p class="card-text">Un nuevo parque recreativo se está construyendo en el centro del departamento...</p>
+                        <button type="button" class="btn btn-primary btnAzul" data-toggle="modal" data-target="#modalNoticia1">Leer más</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Noticia 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card colAmarillo">
+                    <img src="../../images/Frontis-cc25-Arquitectura.jpg" class="card-img-top" alt="Noticia 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Inauguración de Centro Cultural</h5>
+                        <p class="card-text">La municipalidad abrirá un nuevo centro cultural con actividades para todas las edades...</p>
+                        <button type="button" class="btn btn-primary btnAzul" data-toggle="modal" data-target="#modalNoticia2">Leer más</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Noticia 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card colAmarillo">
+                    <img src="../../images/277520768-5014745368640382-831510888949515396-n-jpg..jpg" class="card-img-top" alt="Noticia 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Jornadas de Limpieza Comunitaria</h5>
+                        <p class="card-text">Participa en las jornadas de limpieza para mantener nuestras calles limpias y seguras...</p>
+                        <button type="button" class="btn btn-primary btnAzul" data-toggle="modal" data-target="#modalNoticia3">Leer más</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Noticia 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card colAmarillo">
+                    <img src="../../images/Energia-solar.jpg" class="card-img-top" alt="Noticia 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Implementación de Energía Solar</h5>
+                        <p class="card-text">La municipalidad ha comenzado a instalar paneles solares en edificios públicos...</p>
+                        <button type="button" class="btn btn-primary btnAzul" data-toggle="modal" data-target="#modalNoticia4">Leer más</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Noticia 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card colAmarillo">
+                    <img src="../../images/Transporte-archivo-.jpg" class="card-img-top" alt="Noticia 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Mejora en el Servicio de Transporte</h5>
+                        <p class="card-text">Se han actualizado las rutas de transporte público para mejorar la conectividad...</p>
+                        <button type="button" class="btn btn-primary btnAzul" data-toggle="modal" data-target="#modalNoticia5">Leer más</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Noticia 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="card colAmarillo">
+                    <img src="../../images/jornada-huerta-30-e1529594077987-958x608.jpg" class="card-img-top" alt="Noticia 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Creación de Huertas Urbanas</h5>
+                        <p class="card-text">Se están desarrollando huertas urbanas en diferentes barrios para fomentar la agricultura...</p>
+                        <button type="button" class="btn btn-primary btnAzul" data-toggle="modal" data-target="#modalNoticia6">Leer más</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Noticia 1 -->
+    <div class="modal fade" id="modalNoticia1" tabindex="-1" role="dialog" aria-labelledby="modalNoticia1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content colAmarillo">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalNoticia1Label">Nuevo Parque en Construcción</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="../../images/c447d2055f59279af4da55e9876129c1_L.jpg" class="modal-img" alt="Noticia 1">
+                    <p>La municipalidad ha comenzado la construcción de un nuevo parque recreativo en el centro del departamento. Este parque incluirá amplias zonas verdes, áreas de juegos para niños, senderos para caminatas y una laguna artificial para paseos en bote. Se espera que la obra esté finalizada en el próximo año, convirtiéndose en un punto de encuentro para la comunidad.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnAzul" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Noticia 2 -->
+    <div class="modal fade" id="modalNoticia2" tabindex="-1" role="dialog" aria-labelledby="modalNoticia2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content colAmarillo">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalNoticia2Label">Inauguración de Centro Cultural</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="../../images/Frontis-cc25-Arquitectura.jpg" class="modal-img" alt="Noticia 2">
+                    <p>El nuevo centro cultural abrirá sus puertas el próximo mes e incluirá una galería de arte, un auditorio para presentaciones y talleres de arte y música. Este espacio busca fomentar la cultura y el arte en la comunidad, convirtiéndose en un lugar clave para el desarrollo cultural y social del departamento.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnAzul" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Noticia 3 -->
+    <div class="modal fade" id="modalNoticia3" tabindex="-1" role="dialog" aria-labelledby="modalNoticia3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content colAmarillo">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalNoticia3Label">Jornadas de Limpieza Comunitaria</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="../../images/277520768-5014745368640382-831510888949515396-n-jpg..jpg" class="modal-img" alt="Noticia 3">
+                    <p>Las jornadas de limpieza comunitaria son una iniciativa para mantener el departamento limpio y acogedor. Los ciudadanos están invitados a participar voluntariamente, fomentando la conciencia sobre la importancia de cuidar nuestros espacios públicos. Se realizarán actividades como recolección de basura y embellecimiento de plazas y parques.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnAzul" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Noticia 4 -->
+    <div class="modal fade" id="modalNoticia4" tabindex="-1" role="dialog" aria-labelledby="modalNoticia4Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content colAmarillo">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalNoticia4Label">Implementación de Energía Solar</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="../../images/Energia-solar.jpg" class="modal-img" alt="Noticia 4">
+                    <p>La municipalidad ha comenzado a instalar paneles solares en edificios públicos para promover el uso de energías renovables. Esta iniciativa no solo busca reducir costos energéticos, sino también contribuir a la sostenibilidad y el cuidado del medio ambiente. Se espera que en el corto plazo, esta acción genere un impacto positivo en la comunidad.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnAzul" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Noticia 5 -->
+    <div class="modal fade" id="modalNoticia5" tabindex="-1" role="dialog" aria-labelledby="modalNoticia5Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content colAmarillo">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalNoticia5Label">Mejora en el Servicio de Transporte</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="../../images/Transporte-archivo-.jpg" class="modal-img" alt="Noticia 5">
+                    <p>Se han actualizado las rutas de transporte público para mejorar la conectividad entre diferentes barrios del departamento. Esta mejora incluye horarios más frecuentes y una mayor accesibilidad para personas con movilidad reducida. La iniciativa busca facilitar el desplazamiento de los ciudadanos y promover el uso del transporte público.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnAzul" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Noticia 6 -->
+    <div class="modal fade" id="modalNoticia6" tabindex="-1" role="dialog" aria-labelledby="modalNoticia6Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content colAmarillo">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalNoticia6Label">Creación de Huertas Urbanas</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="../../images/jornada-huerta-30-e1529594077987-958x608.jpg" class="modal-img" alt="Noticia 6">
+                    <p>Se están desarrollando huertas urbanas en diferentes barrios para fomentar la agricultura sostenible y el consumo de productos frescos. Estas huertas permitirán a los vecinos aprender sobre cultivo y cuidado de plantas, además de promover la alimentación saludable. La iniciativa cuenta con el apoyo de expertos en agricultura urbana y está abierta a la participación de todos los interesados.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnAzul" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
