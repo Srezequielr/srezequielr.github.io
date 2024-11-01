@@ -1,12 +1,15 @@
 /* Novedades Styles */
 
-body{
-    font-family: "Quicksand", sans-serif;
-    font-weight: 700;
-  }
-
 .card{
     border: none;
+}
+
+.card-title, .modal-title{
+    font-weight: bold;
+}
+
+.card-text, .modal-body p{
+    font-weight: 500;
 }
 
 .card-img-top {

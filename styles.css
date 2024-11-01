@@ -1,3 +1,5 @@
+/* Global Styles */
+
 .btnAzul{
     background-color: #155263;
     color: #fff;
@@ -13,4 +15,90 @@
 
 .colAmarillo{
     background-color: #FFC93C;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+  }
+
+/* Navbar Styles */
+
+.border-bottom{
+    border-color: black !important;
+}
+
+.navbar{
+    background-color: #FF6F3C;
+    border-radius: 15px;
+    margin: 10px 5px 5px 5px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.logo{
+    width: 3em;
+}
+
+.logo-f{
+    width: 5em;
+    margin-bottom: 1em;
+}
+
+.navbar-toggler-icon{
+    color: black;
+}
+
+
+/* Footer */
+
+  .footer-icon {
+    font-size: 30px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .footer-icon:hover {
+    color: black;
+  }
+  
+  .no-hover {
+    transition: none;
+  }
+
+  .icono-contacto{
+    font-size: 2em;
+  }
+
+  .margen-contacto{
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+  }
+
+  .footer-links{
+    color: #212529;
+  }
+
+  .footer-links:hover{
+    color: #000;
+  }
+  
+  .contactoRapido{
+    margin-bottom: 1em;
+  }
+
+  @media(min-width: 990px){
+    .navite{
+        margin-left: 4em;
+        border: none;
+    }
+    .border-bottom{
+        border: none !important;
+    }
+
+    .margen-contacto{
+        margin-left: 18em;
+        margin-right: 18em;
+    }
 }
