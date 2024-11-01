@@ -5,6 +5,11 @@
     color: #fff;
 }
 
+.btnAzul:hover {
+    color: #fff;
+    background-color: #0d313b;
+  }
+
 .colNaranjaD{
     background-color: #FF6F3C;
 }
@@ -50,6 +55,8 @@ body{
 .navbar-toggler-icon{
     color: black;
 }
+
+/* Main */
 
 
 /* Footer */
