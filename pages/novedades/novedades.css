@@ -4,14 +4,6 @@
     border: none;
 }
 
-.card-title, .modal-title{
-    font-weight: bold;
-}
-
-.card-text, .modal-body p{
-    font-weight: 500;
-}
-
 .card-img-top {
     height: 150px;
     object-fit: cover;

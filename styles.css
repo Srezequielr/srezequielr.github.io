@@ -95,6 +95,40 @@ body{
     margin-bottom: 1em;
   }
 
+  .card-title, .modal-title{
+    font-weight: bold;
+   }
+
+  .card-text, .modal-body p{
+    font-weight: 500;
+   }
+
+   .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con transparencia */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .carousel-caption p {
+    font-weight: 500 !important;
+  }
+
+  @media (max-width: 1000px) {
+    .carousel-caption h5 {
+      font-size: 1.2rem;
+    }
+  
+    .carousel-caption p {
+      font-size: 0.9rem;
+    }
+    .container, .my-5, .mb-5 {
+        padding-left: 3px;
+        padding-right: 3px;
+  }
+  
+
+
   @media(min-width: 990px){
     .navite{
         margin-left: 4em;
