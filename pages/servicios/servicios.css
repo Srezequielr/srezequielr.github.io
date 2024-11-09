@@ -99,78 +99,70 @@ p {
     object-fit: cover;
 }
 
-
-/* moviles */
+/* Media queries para móviles */
 @media (max-width: 768px) {
-    .vertical-image {
-        width: 100%;
-        box-sizing: border-box; /* Asegura que el padding se incluya correctamente */
-    }
-
-    .cemetery-info {
-        padding-left: 2px;
-        padding-right: 2px;
-        box-sizing: border-box;
-    }
-
-    /* Asegúrate de que el padding se aplique a los elementos que realmente lo necesitan */
     .cuerpo,
     .content-section,
     .text-content,
+    .cemetery-info,
     #carouselExample,
     .full-width-image,
     h2,
     .carousel-inner,
-    .carousel-item img {
-        padding-left: 2px;
-        padding-right: 2px;
-        box-sizing: border-box;
-    }
-}
-
-/* Media query para pantallas medianas */
-@media (min-width: 768px) and (max-width: 1399px) {
-    .cuerpo {
-        padding: 0 2px;
+    .carousel-item img,
+    .content-section *,
+    .cemetery-info *,
+    .text-content * {
+        padding-left: 2px !important; /* Añade relleno (padding) lateral de 2px */
+        padding-right: 2px !important; /* Añade relleno (padding) lateral de 2px */
+        box-sizing: border-box; /* Asegura que el relleno se incluya en el tamaño total del elemento */
     }
 
     .content-section {
-        width: 100%;
-        padding: 0 2px;
-        display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%; /* Asegura que la sección ocupe todo el ancho disponible */
     }
 
     .vertical-image {
-        width: 100% !important;
+        width: 100%;
         height: auto;
         margin-bottom: 20px;
-        padding-left: 2px !important;
-        padding-right: 2px !important;
-        object-fit: cover;
-    }
-
-    .cemetery-info {
-        padding-left: 2px;
-        padding-right: 2px;
-        margin-top: 45px;
-        width: 100%;
-        border: 3px solid #FFC93C;
-        background-color: #FFC93C;
-        border-radius: 8px;
     }
 
     .text-content {
+        text-align: center;
         width: 100%;
-        padding: 20px 2px;
-        margin-top: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #FFC93C;
-        border: 3px solid #FFC93C;
-        box-sizing: border-box;
+        padding: 0 2px; /* Ajustar el relleno para mantener consistencia */
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto; /* Ajustar altura automáticamente */
+        margin: 0 auto; /* Centrar imagen */
+    }
+
+    p {
+        font-size: 18px; /* Ajustar tamaño de fuente */
+    }
+
+    h2 {
+        font-size: 24px; /* Ajustar tamaño de fuente */
+    }
+
+    .cemetery-info {
+        width: 100%; /* Ajustar tamaño del contenedor para pantallas móviles */
+        margin: 20px 0; /* Espaciado arriba y abajo */
+    }
+
+    .cemetery-info svg {
+        width: 150px; /* Ajustar tamaño del SVG */
+        height: auto; /* Ajustar altura automáticamente */
+        margin: 20px 0; /* Espaciado arriba y abajo */
+    }
+
+    #carouselExample {
+        max-width: 100%; /* Ajustar ancho máximo */
+        margin: 0 auto; /* Centrar el carrusel */
     }
 }
