@@ -2,7 +2,10 @@
     padding: 0; /* Elimina todo el relleno (padding) */
     margin-bottom: 30px;
 }
-
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
 .navbar {
     padding: 8px 16px;
     border-radius: 15px;
@@ -83,14 +86,9 @@ p {
     padding: 20px;
     border-radius: 8px;
 }
-
-.cemetery-info svg {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 100px;
+.cemetery-icon{
+    width: 100px;
 }
-
 .cemetery-info p {
     margin: 5px 0;
 }
