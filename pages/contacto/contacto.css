@@ -103,34 +103,26 @@ button:hover {
     background-color: #0d313b !important;
 }
 
-/* Media queries para móviles */
-@media (max-width: 768px) {
-    .formulario {
-        width: 90%;
-    }
-
+/* moviles */
+@media (max-width: 768px){ 
+    .formulario{ 
+        width: 90%; 
+    } 
     .email-group {
         display: flex;
-        flex-direction: row; /* Asegura que los elementos estén en línea */
-        align-items: center;
-        width: 100%;
-        gap: 5px; /* Añade espacio entre los elementos */
+        flex-direction: row; 
+        align-items: center; 
+        width: 100%; 
+        gap: 5px; 
+    } 
+    .email-input, .email-at, .email-select {
+        height: 38px;
     }
-
-    .email-input {
-        flex: 1;
+    .email-at { 
+        margin-left: 5px; 
     }
-
-    .email-at, .email-select {
-        flex: 0 0 auto;
-    }
-
-    .email-at {
-        margin-left: 5px;
-    }
-
-    .email-select {
-        margin-left: 5px;
+    .email-select { 
+        margin-left: 5px; 
     }
 }
 

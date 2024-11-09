@@ -97,13 +97,13 @@ body{
 
   .card-title, .modal-title{
     font-weight: bold;
-   }
+  }
 
   .card-text, .modal-body p{
     font-weight: 500;
-   }
+  }
 
-   .carousel-caption {
+  .carousel-caption {
     background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con transparencia */
     color: white;
     padding: 10px;
