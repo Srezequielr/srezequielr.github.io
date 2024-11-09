@@ -34,7 +34,7 @@ body{
 }
 
 .navbar{
-    background-color: #FF6F3C;
+  padding: 8px 16px;
     border-radius: 15px;
     margin: 10px 5px 5px 5px;
 }
