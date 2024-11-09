@@ -1,0 +1,138 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #FFC93C;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto; /* Centra el formulario verticalmente */
+    margin-top: 70px; /* Ajusta el margen superior según sea necesario */
+    margin-bottom: 70px; /* Ajusta el margen inferior para igualar la separación */
+}
+
+.formulario .form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario .form-control,
+.formulario .form-select,
+.formulario .input-group-text {
+    height: 38px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.email-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.email-input {
+    flex: 1;
+}
+
+.email-at {
+    height: 38px;
+    margin-left: 5px;
+}
+
+.email-select {
+    flex: 1;
+    height: 38px;
+    margin-left: 5px;
+    margin-top: 0;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.center-button button {
+    margin-top: 20px;
+}
+
+.barrio-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label[for="barrio"] {
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+.form-select {
+    width: 100%;
+}
+
+button {
+    color: white !important;
+    border: 1px solid transparent;
+    background-color: #155263 !important;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #0d313b !important;
+}
+
+/* Media queries para móviles */
+@media (max-width: 768px) {
+    .formulario {
+        width: 90%;
+    }
+
+    .email-group {
+        display: flex;
+        flex-direction: row; /* Asegura que los elementos estén en línea */
+        align-items: center;
+        width: 100%;
+        gap: 5px; /* Añade espacio entre los elementos */
+    }
+
+    .email-input {
+        flex: 1;
+    }
+
+    .email-at, .email-select {
+        flex: 0 0 auto;
+    }
+
+    .email-at {
+        margin-left: 5px;
+    }
+
+    .email-select {
+        margin-left: 5px;
+    }
+}
+
+
+

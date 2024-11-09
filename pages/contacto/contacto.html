@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <!-- navbar -->
+
+
+    <!-- fin navbar -->
+
+    <!-- formulario -->
+    <section class="formulario">
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-12">
+            <label for="validationCustom01" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="validationCustom01" value="" required>
+            <div class="valid-feedback"></div>
+        </div>
+        <div class="col-12">
+            <label for="validationCustom02" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="validationCustom02" value="" required>
+            <div class="valid-feedback"></div>
+        </div>
+        <div class="col-12">
+            <label for="validationCustomEmail" class="form-label">Email</label>
+            <div class="input-group email-group has-validation">
+                <input type="text" class="form-control email-input" id="validationCustomEmail" aria-describedby="inputGroupPrepend" required>
+                <span class="input-group-text email-at" id="arroba">@</span>
+                <select class="form-select email-select" id="emailDomain" required>
+                    <option value="gmail.com">gmail.com</option>
+                    <option value="hotmail.com">hotmail.com</option>
+                    <option value="yahoo.com">yahoo.com</option>
+                    <option value="outlook.com">outlook.com</option>
+                </select>
+            </div>
+            <div class="invalid-feedback"></div>
+        </div>
+        
+        <div class="col-12">
+            <label for="validationCustom03" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback"></div>
+        </div>
+        <div class="col-12 barrio-container">
+            <label for="validationCustom04" class="form-label" id="barrio">Barrio</label>
+            <select class="form-select" id="validationCustom04" required>
+                <option value="capital">Barrio Sadop</option>
+                <option value="capital">Dos Acequias</option>
+                <option value="capital">San Isidro</option>
+                <option value="capital">Villa Dominguito</option>
+                <option value="capital">Villa Don Bosco</option>
+                <option value="capital">Villa San Martin</option>
+            </select>
+            <div class="invalid-feedback"></div>
+        </div>
+        
+        <div class="col-12">
+            <label for="validationCustom05" class="form-label">Codigo Postal</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback"></div>
+        </div>
+        <div class="col-12 center-button">
+            <button class="btn btn-custom" type="submit">Enviar formulario</button>
+        </div>
+    </form>
+</section>
+<!-- fin formulario -->
+
+<!-- footer -->
+
+<!-- footer -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKpH/7ax9JvoRxT2MZw1T" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDzwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
