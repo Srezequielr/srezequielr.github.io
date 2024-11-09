@@ -1,3 +1,8 @@
+.cuerpo {
+    padding: 0;
+    margin: 0;
+}
+
 .full-width-image {
     margin-top: 80px;
     width: 100%;
@@ -5,7 +10,7 @@
     object-fit: cover;
 }
 
-h2{
+h2 {
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
     text-align: center;
@@ -19,7 +24,8 @@ h2{
     align-items: flex-start;
     width: 80%;
     max-width: 1200px;
-    margin: 20px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .vertical-image {
@@ -31,7 +37,7 @@ h2{
 
 .text-content {
     width: 55%;
-    padding-left: 20px;
+    padding: 20px;
     border: 3px solid #FFC93C;
     background-color: #FFC93C;
     margin-top: 50px;
@@ -55,6 +61,7 @@ p {
     text-align: center;
     border: 3px solid #FFC93C;
     background-color: #FFC93C;
+    padding: 20px;
 }
 
 .cemetery-info svg {
@@ -81,12 +88,16 @@ p {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    padding-left: 1.5px;
+    padding-right: 1.5px;
 }
 
+/* Media queries para móviles */
 @media (max-width: 768px) {
     .content-section {
         flex-direction: column;
         align-items: center;
+        padding: 0 1px; 
     }
 
     .vertical-image {
@@ -98,10 +109,45 @@ p {
     .text-content {
         text-align: center;
         width: 100%;
+        padding-left: 1.5px;
+        padding-right: 1.5px;
     }
 
     .carousel-item img {
-        width: 90%;
+        width: 100%;
+        height: auto; 
+        margin: 0 auto; 
+        padding-left: 1.5px;
+        padding-right: 1.5px;
+    }
+
+    p {
+        font-size: 18px; 
+    }
+
+    h2 {
+        font-size: 24px; 
+    }
+
+    .cemetery-info {
+        width: 100%; 
+        margin: 20px 0; 
+        padding: 0 5px; 
+    }
+
+    .cemetery-info svg {
+        width: 150px; 
+        height: auto; 
+        margin: 20px 0; 
+    }
+
+    #carouselExample {
+        max-width: 100%;
+        margin: 0 1px; 
+    }
+
+    .cuerpo {
+        padding-left: 1.5px;
+        padding-right: 1.5px;
     }
 }
-
