@@ -42,7 +42,7 @@
 
 @media(max-width: 1000px){
     .modal-dialog {
-        max-width: 25em; /* tamaño contenedor modal */
+        max-width: 23em; /* tamaño contenedor modal */
         margin: 1.75rem auto; /* centrar contendor modal */
     }
     .col-md-4{
