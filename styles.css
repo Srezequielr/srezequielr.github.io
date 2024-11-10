@@ -114,6 +114,10 @@ body{
     font-weight: 500 !important;
   }
 
+  .main_title{
+    margin-bottom: 20px;
+  }
+
   @media (max-width: 1000px) {
     .carousel-caption h5 {
       font-size: 1.2rem;

@@ -1,18 +1,15 @@
-.cuerpo {
-    padding: 0; /* Elimina todo el relleno (padding) */
-    margin-bottom: 30px;
-}
 .navbar-toggler:focus {
     outline: none;
     box-shadow: none;
 }
+
 .navbar {
     padding: 8px 16px;
     border-radius: 15px;
     margin: 10px 5px 5px 5px;
 }
 
-h1{
+h1 {
     margin-top: 50px;
     text-align: center;
     font-family: "Quicksand", sans-serif;
@@ -37,7 +34,7 @@ h2 {
 .content-section {
     display: flex;
     justify-content: space-between;
-    align-items: stretch; /* Asegura que los elementos hijos tengan la misma altura */
+    align-items: stretch;
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
@@ -63,19 +60,14 @@ h2 {
     border-radius: 8px;
 }
 
-p {
-    margin-top: 70px;
-    font-size: 23px;
-}
-
 .text-beside-image {
     width: 50%;
     padding: 0 20px;
 }
 
 .cemetery-info {
-    width: 50%; /* Ajustar tamaño del contenedor para alinearse con el carrusel */
-    margin: 0 auto; /* Centrar el contenedor */
+    width: 50%;
+    margin: 0 auto;
     margin-top: 45px;
     display: flex;
     flex-direction: column;
@@ -86,9 +78,11 @@ p {
     padding: 20px;
     border-radius: 8px;
 }
-.cemetery-icon{
+
+.cemetery-icon {
     width: 100px;
 }
+
 .cemetery-info p {
     margin: 5px 0;
 }
@@ -96,7 +90,7 @@ p {
 #carouselExample {
     max-width: 50%;
     height: 50%;
-    margin: 0 auto; /* Centrar el carrusel en pantallas grandes */
+    margin: 0 auto;
 }
 
 .carousel-inner {
@@ -109,9 +103,8 @@ p {
     object-fit: cover;
 }
 
-/* Media queries para móviles */
+/* Media queries para dispositivos moviles */
 @media (max-width: 768px) {
-    .cuerpo,
     .content-section,
     .text-content,
     .cemetery-info,
@@ -123,15 +116,15 @@ p {
     .content-section *,
     .cemetery-info *,
     .text-content * {
-        padding-left: 2px !important; /* Añade relleno (padding) lateral de 2px */
-        padding-right: 2px !important; /* Añade relleno (padding) lateral de 2px */
-        box-sizing: border-box; /* Asegura que el relleno se incluya en el tamaño total del elemento */
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+        box-sizing: border-box;
     }
 
     .content-section {
         flex-direction: column;
         align-items: center;
-        width: 100%; /* Asegura que la sección ocupe todo el ancho disponible */
+        width: 100%;
     }
 
     .vertical-image {
@@ -143,41 +136,33 @@ p {
     .text-content {
         text-align: center;
         width: 100%;
-        padding: 0 2px; /* Ajustar el relleno para mantener consistencia */
+        padding: 0 2px;
     }
 
     .carousel-item img {
         width: 100%;
-        height: auto; /* Ajustar altura automáticamente */
-        margin: 0 auto; /* Centrar imagen */
-    }
-
-    p {
-        font-size: 18px; /* Ajustar tamaño de fuente */
-    }
-
-    h2 {
-        font-size: 24px; /* Ajustar tamaño de fuente */
+        height: auto;
+        margin: 0 auto;
     }
 
     .cemetery-info {
-        width: 100%; /* Ajustar tamaño del contenedor para pantallas móviles */
-        margin: 20px 0; /* Espaciado arriba y abajo */
+        width: 100%;
+        margin: 20px 0;
     }
 
     .cemetery-info svg {
-        width: 150px; /* Ajustar tamaño del SVG */
-        height: auto; /* Ajustar altura automáticamente */
-        margin: 20px 0; /* Espaciado arriba y abajo */
+        width: 150px;
+        height: auto;
+        margin: 20px 0;
     }
 
     #carouselExample {
-        max-width: 100%; /* Ajustar ancho máximo */
-        margin: 0 auto; /* Centrar el carrusel */
+        max-width: 100%;
+        margin: 0 auto;
     }
 }
+
 @media (min-width: 768px) and (max-width: 1391px) {
-    .cuerpo,
     .content-section,
     .text-content,
     .cemetery-info,
@@ -189,15 +174,15 @@ p {
     .content-section *,
     .cemetery-info *,
     .text-content * {
-        padding-left: 2px !important; /* Añade relleno (padding) lateral de 2px */
-        padding-right: 2px !important; /* Añade relleno (padding) lateral de 2px */
-        box-sizing: border-box; /* Asegura que el relleno se incluya en el tamaño total del elemento */
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+        box-sizing: border-box;
     }
 
     .content-section {
         flex-direction: column;
         align-items: center;
-        width: 100%; /* Asegura que la sección ocupe todo el ancho disponible */
+        width: 100%;
     }
 
     .vertical-image {
@@ -209,36 +194,62 @@ p {
     .text-content {
         text-align: center;
         width: 100%;
-        padding: 0 2px; /* Ajustar el relleno para mantener consistencia */
+        padding: 0 2px;
     }
 
     .carousel-item img {
         width: 100%;
-        height: auto; /* Ajustar altura automáticamente */
-        margin: 0 auto; /* Centrar imagen */
-    }
-
-    p {
-        font-size: 18px; /* Ajustar tamaño de fuente */
-    }
-
-    h2 {
-        font-size: 24px; /* Ajustar tamaño de fuente */
+        height: auto;
+        margin: 0 auto;
     }
 
     .cemetery-info {
-        width: 100%; /* Ajustar tamaño del contenedor para pantallas móviles */
-        margin: 20px 0; /* Espaciado arriba y abajo */
+        width: 100%;
+        margin: 20px 0;
     }
 
     .cemetery-info svg {
-        width: 150px; /* Ajustar tamaño del SVG */
-        height: auto; /* Ajustar altura automáticamente */
-        margin: 20px 0; /* Espaciado arriba y abajo */
+        width: 150px;
+        height: auto;
+        margin: 20px 0;
     }
 
     #carouselExample {
-        max-width: 100%; /* Ajustar ancho máximo */
-        margin: 0 auto; /* Centrar el carrusel */
+        max-width: 100%;
+        margin: 0 auto;
     }
+}
+
+.nav-color {
+    color: rgba(0,0,0,.5);
+}
+
+.conteine {
+    margin-top: -30px !important;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.imagen-servicios {
+    margin-top: 15px;
+}
+
+.font-light {
+    font-weight: 500;
+}
+
+.p-basura {
+    padding-top: 10px;
+}
+
+.contenedor-basura {
+    text-align: center;
+}
+
+.image-basura {
+    width: 15em;
+    margin-bottom: 10px;
 }
