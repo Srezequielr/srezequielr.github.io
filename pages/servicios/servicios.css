@@ -79,9 +79,6 @@ h2 {
     border-radius: 8px;
 }
 
-.cemetery-icon {
-    width: 100px;
-}
 
 .cemetery-info p {
     margin: 5px 0;
@@ -149,11 +146,6 @@ h2 {
         width: 100%;
     }
 
-    .cemetery-info svg {
-        width: 150px;
-        height: auto;
-        margin: 20px 0;
-    }
 
     #carouselExample {
         max-width: 100%;
@@ -208,12 +200,6 @@ h2 {
         margin-top: 0px !important;
     }
 
-    .cemetery-info svg {
-        width: 150px;
-        height: auto;
-        margin: 20px 0;
-    }
-
     #carouselExample {
         max-width: 100%;
         margin: 0 auto;
@@ -252,4 +238,8 @@ h2 {
 .image-basura {
     width: 15em;
     margin-bottom: 10px;
+}
+
+.cemetery-icon{
+    font-size: 6em;
 }
