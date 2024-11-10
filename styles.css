@@ -1,5 +1,9 @@
 /* Global Styles */
 
+html, body {
+  overflow-x: hidden;
+}
+
 .btnAzul{
     background-color: #155263;
     color: #fff;
