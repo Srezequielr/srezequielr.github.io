@@ -102,7 +102,7 @@ label[for="barrio"] {
     background-color: #0d313b !important;
 }
 
-/* Media queries para móviles */
+/* Media queries para dispositivos moviles */
 @media (max-width: 768px) {
     .formulario-custom {
         width: 98%;
@@ -117,7 +117,7 @@ label[for="barrio"] {
     }
 
     .email-input, .email-select, .email-at {
-        height: 38px; /* Asegura que todos los elementos tengan la misma altura */
+        height: 38px; /* Misma altura a todos los elementos */
     }
 
     .email-at {
